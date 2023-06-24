@@ -1,0 +1,14 @@
+@import '../assets/styles/general.scss';
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.wordButton {
+    cursor: pointer;
+    background-color: $green;
+    color: white;
+
+}
