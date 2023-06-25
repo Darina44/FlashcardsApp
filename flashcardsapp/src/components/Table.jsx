@@ -4,13 +4,16 @@ import './Table.scss'
 function Table(props) {
     const { english, transcription, russian } = props;
     return (
-        <div className="table">
-            <div className="table__english">English</div>
-            <div className="table__transcription">Transcription</div>
-            <div className="table__russian">Russian</div>
-            <div>{english}</div>
-            <div>{transcription}</div>
-            <div>{russian}</div>
+        <div className="table__container">
+            <div className="table">
+                <div className="table__english">{english}</div>
+                <div className="table__transcription">{transcription}</div>
+                <div className="table__russian">{russian}</div>
+                <div className="table__buttons">
+                    <button>Редактировать</button>
+                    <button>Удалить</button>
+                </div>
+            </div>
         </div>
     )
 };
