@@ -3,12 +3,11 @@
 .button-container {
     display: flex;
     justify-content: center;
-    margin-top: 1rem;
+    margin: 2rem 0;
 }
 
 .wordButton {
     cursor: pointer;
     background-color: $green;
     color: white;
-
 }
