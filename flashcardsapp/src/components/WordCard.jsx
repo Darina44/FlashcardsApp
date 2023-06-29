@@ -8,10 +8,6 @@ function WordCard(props) {
         setTranslationMode(!translationMode);
     };
 
-    const handleEnglish = () => {
-        setTranslationMode(!translationMode);
-    };
-
     const english = () => {
         return (
             <div className="wordCard-container" onClick={handleTranslation}>
